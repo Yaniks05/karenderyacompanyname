@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karenderya Searcher</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <style>
+        body {
+            font-family: 'Poppins', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+        header {
+            background: linear-gradient(90deg, #f7941e, #ffcc33);
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+        }
+        .logo {
+            max-width: 150px;
+            margin-bottom: 1rem;
+        }
+        .features {
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        .feature-item {
+            margin: 1rem 0;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+        }
+        .team {
+            text-align: center;
+            padding: 2rem 1rem;
+            background-color: #fff3e0;
+        }
+        .team-container {
+            display: flex;
+            justify-content: center;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+        .team-member {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 1rem;
+            max-width: 300px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .team-member:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .team-photo {
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            margin-bottom: 1rem;
+        }
+        #restaurants {
+            padding: 2rem 1rem;
+            background-color: #f9f9f9;
+            text-align: center;
+        }
+        .restaurant-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 1.5rem;
+        }
+        .restaurant-card {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            max-width: 300px;
+            padding: 1rem;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .restaurant-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        }
+        .restaurant-card h3 {
+            color: #f7941e;
+            margin-bottom: 0.5rem;
+        }
+        .restaurant-card ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0.5rem 0;
+        }
+        .restaurant-card ul li {
+            margin: 0.25rem 0;
+            color: #555;
+        }
+        .card-container {
+            display: flex;
+            gap: 1rem;
+            justify-content: center;
+            flex-wrap: wrap;
+            padding: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <ul class="nav nav-tabs">
+        <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="featureskarenderya.html">Features</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#">about</a>
+        </li>
+    </ul>
+    <header>
+        <div class="container">
+            <img src="img/logo ksrenderya.png" alt="Karenderya Searcher Logo" class="logo">
+            <h1>Discover the Best Karenderyas Near You!</h1>
+        </div>
+    </header>
+    <main>
+        <main>
+            <section class="features">
+                <h2>Features of Karenderyas</h2>
+                <div class="feature-item">
+                    <h3>Authentic Filipino Dishes</h3>
+                    <p>"Karenderyas offer traditional Filipino meals that taste just like home, from savory adobo to hearty sinigang. These meals are carefully prepared, preserving the rich flavors of Filipino cuisine."</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Affordable Prices</h3>
+                    <p>"Karenderyas provide home-cooked meals at budget-friendly prices, making it possible for everyone to enjoy authentic Filipino food without breaking the bank."</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Community Vibe</h3>
+                    <p>"Karenderyas are a cornerstone of Filipino communities, offering a warm, welcoming space where locals can enjoy a delicious meal and connect with their neighbors."</p>
+                </div>
+                <div class="feature-item">
+                    <h3>Convenient Location</h3>
+                    <p>"Karenderyas are typically located close to homes, making them the perfect choice when you’re craving comfort food without having to travel far."</p>
+                </div>
+            </section>
+        </main>
+        <footer>
+        <p>&copy; 2024 Karenderya Searcher</p>
+        </footer>
+        
+        </body>
+        </html>
+        
